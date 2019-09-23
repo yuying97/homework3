@@ -1,0 +1,103 @@
+/*homework 3 Yuying Li*/
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #dddddd url("../images/pidgeon-background.jpg");
+  background-repeat: no-repeat;
+  margin: 30px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  color: #c12258;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+a {
+  font-size: 18px;
+  color: #c12258;
+  text-decoration: underline;
+}
+
+*:focus{
+  border: 1px solid red;
+}
+
+table {
+  border: 2px solid black;
+  border-radius: 10px;
+  border-collapse: separate;
+}
+
+th.colhead {
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #7e0830;
+}
+
+thead tr th:first-child {
+  border-top-left-radius:10px;
+}
+
+thead tr th:last-child {
+  border-top-right-radius:10px;
+}
+
+td{
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding: 15px;
+  min-width:150px;
+}
+
+th {
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding: 15px;
+}
+
+tbody > tr:last-child > td {
+  border-bottom: 0;
+}
+
+tbody tr:last-child th{
+  border-bottom-left-radius:10px;
+  border-bottom: none;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius:10px;
+}
+
+tr:nth-child(even){
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd){
+  background-color: transparent;
+}
+
+tr:hover{
+  background-color: #fab9cf;
+}
+
+footer{
+  background-color: black;
+  min-height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+}
+
